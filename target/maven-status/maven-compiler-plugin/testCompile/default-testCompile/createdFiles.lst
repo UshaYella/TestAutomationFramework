@@ -1,0 +1,5 @@
+com\qa\test\hooks\Geeralhooks.class
+com\qa\test\stepdefs\OrderDetailsStepsTest.class
+com\qa\test\stepdefs\RegistrationStepTest.class
+com\qa\test\stepdefs\ApiBookingStepsTest.class
+com\qa\test\TestRunners\TestRunner.class

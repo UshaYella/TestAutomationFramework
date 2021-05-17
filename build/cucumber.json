@@ -1,0 +1,587 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-17T08:10:03.779Z",
+        "before": [
+          {
+            "result": {
+              "duration": 30982400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.test.hooks.Geeralhooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "CreateBooking",
+        "description": "",
+        "id": "checking-playground-api-restful-booker.;createbooking",
+        "after": [
+          {
+            "result": {
+              "duration": 5356109300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.test.hooks.Geeralhooks.getResult(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 51970000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.test.hooks.Geeralhooks.AfterSteps()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.test.hooks.Geeralhooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6640250100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The Booking Api service is working",
+            "match": {
+              "location": "com.qa.test.stepdefs.ApiBookingStepsTest.the_booking_api_service_is_working()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2335164800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User create a booking with booking details",
+            "match": {
+              "location": "com.qa.test.stepdefs.ApiBookingStepsTest.user_create_a_booking_with_booking_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User validates the booking has created",
+            "match": {
+              "location": "com.qa.test.stepdefs.ApiBookingStepsTest.user_validates_the_booking_has_created()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          },
+          {
+            "name": "@Booking"
+          },
+          {
+            "name": "@TC-Booking-001"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-17T08:10:18.481Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.test.hooks.Geeralhooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "UpdateBooking",
+        "description": "",
+        "id": "checking-playground-api-restful-booker.;updatebooking",
+        "after": [
+          {
+            "result": {
+              "duration": 66957100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.test.hooks.Geeralhooks.getResult(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 41976300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.test.hooks.Geeralhooks.AfterSteps()"
+            }
+          },
+          {
+            "result": {
+              "duration": 999300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.test.hooks.Geeralhooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 493775200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The Booking Api service is working",
+            "match": {
+              "location": "com.qa.test.stepdefs.ApiBookingStepsTest.the_booking_api_service_is_working()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 497720000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User create a booking with booking details",
+            "match": {
+              "location": "com.qa.test.stepdefs.ApiBookingStepsTest.user_create_a_booking_with_booking_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1001400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User validates the booking has created",
+            "match": {
+              "location": "com.qa.test.stepdefs.ApiBookingStepsTest.user_validates_the_booking_has_created()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1462383300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User updates a booking",
+            "match": {
+              "location": "com.qa.test.stepdefs.ApiBookingStepsTest.user_updates_a_booking()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User validates the updated booking details",
+            "match": {
+              "location": "com.qa.test.stepdefs.ApiBookingStepsTest.user_validates_the_updated_booking_details()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          },
+          {
+            "name": "@Booking"
+          },
+          {
+            "name": "@TC-Booking-002"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-17T08:10:21.067Z",
+        "before": [
+          {
+            "result": {
+              "duration": 999600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.test.hooks.Geeralhooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "DeleteBooking",
+        "description": "",
+        "id": "checking-playground-api-restful-booker.;deletebooking",
+        "after": [
+          {
+            "result": {
+              "duration": 64959900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.test.hooks.Geeralhooks.getResult(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 35979000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.test.hooks.Geeralhooks.AfterSteps()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.test.hooks.Geeralhooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 462801600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "The Booking Api service is working",
+            "match": {
+              "location": "com.qa.test.stepdefs.ApiBookingStepsTest.the_booking_api_service_is_working()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 482555700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User create a booking with booking details",
+            "match": {
+              "location": "com.qa.test.stepdefs.ApiBookingStepsTest.user_create_a_booking_with_booking_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User validates the booking has created",
+            "match": {
+              "location": "com.qa.test.stepdefs.ApiBookingStepsTest.user_validates_the_booking_has_created()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 931047800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User deletes a booking",
+            "match": {
+              "location": "com.qa.test.stepdefs.ApiBookingStepsTest.user_deletes_a_booking()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User validates the booking details are deleted",
+            "match": {
+              "location": "com.qa.test.stepdefs.ApiBookingStepsTest.user_validates_the_booking_details_are_deleted()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          },
+          {
+            "name": "@Booking"
+          },
+          {
+            "name": "@TC-Booking-003"
+          }
+        ]
+      }
+    ],
+    "name": "Checking playground API restful-booker.",
+    "description": "",
+    "id": "checking-playground-api-restful-booker.",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/qa/test/featurefile/ApiBookingFeature.feature",
+    "tags": [
+      {
+        "name": "@Test",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Booking",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 7
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-17T08:10:23.063Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.test.hooks.Geeralhooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Verify Order is created and history is shown",
+        "description": "",
+        "id": "order-details---where-order-is-created-and-history-of-the-order-is-seen;verify-order-is-created-and-history-is-shown",
+        "after": [
+          {
+            "result": {
+              "duration": 529693500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.test.hooks.Geeralhooks.getResult(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 41978100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.test.hooks.Geeralhooks.AfterSteps()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.test.hooks.Geeralhooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8326196500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is registered and navigates to www.automationpractice.com",
+            "match": {
+              "location": "com.qa.test.stepdefs.OrderDetailsStepsTest.user_is_registered_and_navigates_to_www_automationpractice_com()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1563147600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User search for an item T-shrit",
+            "match": {
+              "location": "com.qa.test.stepdefs.OrderDetailsStepsTest.user_search_for_an_item_t_shrit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3351076400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User selects the T-shirt Item and clicks Add to cart",
+            "match": {
+              "location": "com.qa.test.stepdefs.OrderDetailsStepsTest.user_selects_the_t_shirt_item_and_clicks_add_to_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2702947500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User selects to Proceed to checkout for address and shiping",
+            "match": {
+              "location": "com.qa.test.stepdefs.OrderDetailsStepsTest.user_selects_to_proceed_to_checkout_for_address_and_shiping()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1657379300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user agrees to the Terms of services",
+            "match": {
+              "location": "com.qa.test.stepdefs.OrderDetailsStepsTest.user_agrees_to_the_terms_of_services()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1785989900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User chooses a payment method Bank-wire payment",
+            "match": {
+              "location": "com.qa.test.stepdefs.OrderDetailsStepsTest.user_chooses_a_payment_method_bank_wire_payment()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1998586800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User Confirms the order",
+            "match": {
+              "location": "com.qa.test.stepdefs.OrderDetailsStepsTest.user_confirms_the_order()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77666200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the order confirmation page is displayed",
+            "match": {
+              "location": "com.qa.test.stepdefs.OrderDetailsStepsTest.the_order_confirmation_page_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2540551000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User navigates to My account detail page",
+            "match": {
+              "location": "com.qa.test.stepdefs.OrderDetailsStepsTest.user_navigates_to_my_account_detail_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3233841100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicks on Order History and details button",
+            "match": {
+              "location": "com.qa.test.stepdefs.OrderDetailsStepsTest.user_clicks_on_order_history_and_details_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69960300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "navigated to Order history and verifies the order details",
+            "match": {
+              "location": "com.qa.test.stepdefs.OrderDetailsStepsTest.navigated_to_order_history_and_verifies_the_order_details()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test"
+          },
+          {
+            "name": "@Order"
+          },
+          {
+            "name": "@TC-Order-001"
+          }
+        ]
+      }
+    ],
+    "name": "Order details , Where order is created and history of the order is seen",
+    "description": "",
+    "id": "order-details---where-order-is-created-and-history-of-the-order-is-seen",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/qa/test/featurefile/WebOrderFeature.feature",
+    "tags": [
+      {
+        "name": "@Test",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Order",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 7
+        }
+      }
+    ]
+  }
+]
